@@ -1,0 +1,218 @@
+
+*{
+
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+
+}
+
+
+
+body{
+
+background:#e7ecff;
+color:#0f172a;
+
+}
+
+
+
+/* NAVBAR */
+
+nav{
+
+display:flex;
+justify-content:space-between;
+padding:20px 10%;
+background:#e7ecff;
+
+}
+
+
+
+.logo{
+
+font-weight:bold;
+font-size:20px;
+
+}
+
+
+
+nav ul{
+
+display:flex;
+gap:30px;
+list-style:none;
+
+}
+
+
+
+nav a{
+
+text-decoration:none;
+color:#0f172a;
+
+}
+
+
+
+/* HERO */
+
+.hero{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:80px 10%;
+
+}
+
+
+
+.hero h1{
+
+font-size:55px;
+
+}
+
+
+
+.hero h2{
+
+color:#2563eb;
+margin:10px 0;
+
+}
+
+
+
+.hero-img img{
+
+width:320px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+
+}
+
+
+
+/* SECTIONS */
+
+section{
+
+padding:60px 10%;
+
+}
+
+
+
+h2{
+
+margin-bottom:20px;
+color:#1e3a8a;
+
+}
+
+
+
+/* CARDS */
+
+.card{
+
+background:white;
+padding:20px;
+border-radius:12px;
+margin-bottom:20px;
+box-shadow:0 5px 15px rgba(0,0,0,0.05);
+
+}
+
+
+
+/* SKILL BARS */
+
+.bar{
+
+height:12px;
+background:#c7d2fe;
+border-radius:20px;
+margin-bottom:15px;
+
+}
+
+
+
+.progress{
+
+height:100%;
+background:#2563eb;
+border-radius:20px;
+
+}
+
+
+
+/* SOCIAL ICONS */
+
+.socials i{
+
+font-size:20px;
+margin-right:15px;
+
+}
+
+
+
+/* ANIMATION */
+
+.fade{
+
+animation:fadeUp 1s ease;
+
+}
+
+
+
+@keyframes fadeUp{
+
+from{
+
+opacity:0;
+transform:translateY(30px);
+
+}
+
+to{
+
+opacity:1;
+transform:translateY(0);
+
+}
+
+}
+
+
+
+/* PRINT */
+
+@media print{
+
+nav{
+
+display:none;
+
+}
+
+
+
+body{
+
+background:white;
+
+}
+
+}
